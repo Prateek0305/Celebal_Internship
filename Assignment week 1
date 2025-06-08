@@ -1,60 +1,70 @@
-# Q1: To print Lower Triangular star (*) Pattern
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Star Pattern Programs</title>
+</head>
+<body>
 
-#Code:
+  <h2>Q1: To print Lower Triangular star (*) Pattern</h2>
+  <pre>
+# Code:
 rows = 5
 for i in range(1, rows + 1):
     print("*" * i)
 
-#Output:
+# Output:
 *
 **
 ***
 ****
 *****
+  </pre>
 
-
-# Q2: To print upper Triangular star (*) Pattern
-
-#Code:
+  <h2>Q2: To print Upper Triangular star (*) Pattern</h2>
+  <pre>
+# Code:
 rows = 5
 for i in range(rows, 0, -1):
     print("*" * i)
 
-#output:
+# Output:
 *****
 ****
 ***
 **
 *
+  </pre>
 
-# Q3: To print Pyramid star (*) Pattern
-
-#code:
+  <h2>Q3: To print Pyramid star (*) Pattern</h2>
+  <pre>
+# Code:
 rows = 5
 for i in range(1, rows + 1):
     print(" " * (rows - i) + "*" * (2 * i - 1))
 
-#output:
-
+# Output:
     *
    ***
   *****
  *******
 *********
+  </pre>
 
-#Extra: To print upper triangular matrix in star pattern
-
-#code:
+  <h2>Extra: To print Upper Triangular Matrix in Star Pattern</h2>
+  <pre>
+# Code:
 rows = 5
 for i in range(rows):
     print(" " * i + "*" * (rows - i))
 
-#output:
-
+# Output:
 *****
  ****
   ***
    **
     *
+  </pre>
 
-
+</body>
+</html>
