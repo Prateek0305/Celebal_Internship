@@ -1,65 +1,93 @@
-<h1>🌸 Iris Flower Classification Web App</h1>
+# ⛽ MPG Prediction Web App
 
-<p>This is a web-based Machine Learning application that classifies <strong>Iris flower species</strong> based on their petal and sepal measurements. The app is built using <strong>Streamlit</strong> and demonstrates a deployed version of a trained classification model.</p>
+Predict fuel efficiency of a car and explore model insights using an interactive machine learning app built with Streamlit.
 
-<h2>🚀 Features</h2>
-<ul>
-  <li>Predicts the Iris flower species (Setosa, Versicolor, Virginica) based on user input</li>
-  <li>Supports input via sliders and manual fields</li>
-  <li>Displays predicted class along with prediction probabilities</li>
-  <li>Shows corresponding flower image based on prediction</li>
-  <li>Clean and interactive UI with enhanced styling</li>
-</ul>
+---
 
-<h2>📁 Folder Structure</h2>
-<pre>
-celebal_internship/  
-├── Assignment7/  
-│   ├── app.py                  → Streamlit app  
-│   ├── iris_model.pkl          → Trained classification model (RandomForest)  
-│   └── images/  
-│       ├── setosa.jpg  
-│       ├── versicolor.jpg  
-│       └── virginica.jpg  
-└── requirements.txt           → Dependencies
-</pre>
+## 📌 Overview
 
-<h2>🛠️ Tech Stack</h2>
-<ul>
-  <li>Python</li>
-  <li>Streamlit</li>
-  <li>Scikit-learn</li>
-  <li>Seaborn & Matplotlib</li>
-  <li>Pandas & Numpy</li>
-  <li>Joblib (for model serialization)</li>
-</ul>
+This web application predicts the **Miles Per Gallon (MPG)** of a car based on user-input specifications like horsepower, weight, displacement, and more. It uses a trained **Random Forest Regressor** model and provides insights through various visualizations.
 
-<h2>📦 How to Run Locally</h2>
-<ol>
-  <li>Clone the repository:<br>
-    <code>git clone https://github.com/your-username/your-repo-name.git</code><br>
-    <code>cd celebal_internship/Assignment7</code>
-  </li>
-  <li>Install dependencies:<br>
-    <code>pip install -r requirements.txt</code>
-  </li>
-  <li>Run the Streamlit app:<br>
-    <code>streamlit run app.py</code>
-  </li>
-</ol>
+---
 
-<h2>🌐 Live App</h2>
-<p>Access the deployed app here:<br>
-👉 <a href="https://prateek-celebal-internship.streamlit.app" target="_blank">https://prateek-celebal-internship.streamlit.app</a></p>
+## 📂 Project Structure
 
-<h2>🎥 Sample Prediction Demo</h2>
-![MPG Prediction Demo](Assignment7/project_video.gif)
+```
+Assignment7/
+├── app.py
+├── mpg_model.pkl
+├── project_video.gif
+└── README.md
+```
 
+---
 
-<h2>👤 Author</h2>
-<p><strong>Prateek Agrawal</strong><br>
-Intern @ Celebal Technologies<br>
-📍 Jaipur, India</p>
+## 🚀 Features
 
+- 🎯 Predicts car fuel efficiency (MPG) using machine learning  
+- 🧾 Sidebar to input car specs like horsepower, weight, etc.  
+- 📊 Visualizations: Feature importance, actual vs predicted MPG, PDP  
+- 🎨 Aesthetic and interactive Streamlit UI  
+- 💡 Trained on seaborn's `mpg` dataset  
 
+---
 
+## 📽️ Sample Prediction Demo
+
+![Sample Prediction](Assignment7/project_video.gif)
+
+---
+
+## 🔧 Technologies Used
+
+- Python  
+- Streamlit  
+- Scikit-learn  
+- Pandas, Matplotlib, Seaborn  
+- Joblib  
+
+---
+
+## 📊 Input Parameters
+
+- `Cylinders` - Number of engine cylinders  
+- `Displacement` - Engine displacement (in cubic inches)  
+- `Horsepower` - Engine horsepower  
+- `Weight` - Vehicle weight (lbs)  
+- `Acceleration` - Time taken to accelerate from 0 to 60 mph  
+- `Model Year` - Year the car model was released  
+- `Origin` - Manufacturing origin (USA, Europe, Japan)  
+- `Car Name` - Vehicle model name  
+
+---
+
+## 🧠 Model Insights
+
+- **Feature Importance** plot shows the most influential features on MPG  
+- **Actual vs Predicted** scatter plot gives a sense of model accuracy  
+- **Partial Dependence Plot** helps visualize how individual features affect predictions  
+
+---
+
+## 📦 How to Run
+
+1. Clone this repo:
+   ```
+   git clone <repo-url>
+   ```
+
+2. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. Run the app:
+   ```
+   streamlit run Assignment7/app.py
+   ```
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by **Prateek Agrawal**
