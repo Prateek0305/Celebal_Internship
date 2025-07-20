@@ -17,6 +17,7 @@ Assignment7/
 ├── app.py
 ├── iris_model.pkl
 ├── project_video.gif
+├── requirements.txt
 └── README.md
 ```
 
@@ -86,7 +87,7 @@ Assignment7/
 
 ## 🌐 Live App
 
-[https://iris-classifier-prateek.streamlit.app/](https://iris-classifier-prateek.streamlit.app/)
+[https://prateek-celebal-internship.streamlit.app/](https://prateek-celebal-internship.streamlit.app/)
 
 ---
 
