@@ -53,12 +53,13 @@ celebal_internship/
 👉 <a href="https://prateek-celebal-internship.streamlit.app" target="_blank">https://prateek-celebal-internship.streamlit.app</a></p>
 
 <h2>🎥 Sample Prediction Demo</h2>
-<p align="center">
-  <img src="Assignment7/project_video.gif" alt="Prediction Demo" width="700">
-</p>
+![MPG Prediction Demo](Assignment7/project_video.gif)
 
 
 <h2>👤 Author</h2>
 <p><strong>Prateek Agrawal</strong><br>
 Intern @ Celebal Technologies<br>
 📍 Jaipur, India</p>
+
+
+
