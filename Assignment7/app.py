@@ -41,7 +41,7 @@ if st.button("🔍 Predict"):
     
     image_path = f"Assignment7/images/{prediction.lower()}.jpg"
     if os.path.exists(image_path):
-        st.image(Image.open(image_path), caption=f"{prediction.capitalize()} Flower", use_column_width=True)
+       st.image(Image.open(image_path), caption=f"{prediction.capitalize()} Flower", use_container_width=True)
     else:
         st.warning("Image not found for the predicted species.")
 
