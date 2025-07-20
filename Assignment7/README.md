@@ -1,12 +1,12 @@
-# ⛽ MPG Prediction Web App
+# 🌸 Iris Flower Classification Web App
 
-Predict fuel efficiency of a car and explore model insights using an interactive machine learning app built with Streamlit.
+A simple and elegant web application built using **Streamlit** that classifies iris flowers into three species: **Setosa, Versicolor**, and **Virginica**, using a trained machine learning model.
 
 ---
 
 ## 📌 Overview
 
-This web application predicts the **Miles Per Gallon (MPG)** of a car based on user-input specifications like horsepower, weight, displacement, and more. It uses a trained **Random Forest Regressor** model and provides insights through various visualizations.
+This application predicts the **species** of an iris flower based on user inputs of petal and sepal dimensions. It provides quick predictions and visual insights using a trained classifier.
 
 ---
 
@@ -15,7 +15,7 @@ This web application predicts the **Miles Per Gallon (MPG)** of a car based on u
 ```
 Assignment7/
 ├── app.py
-├── mpg_model.pkl
+├── iris_model.pkl
 ├── project_video.gif
 └── README.md
 ```
@@ -24,48 +24,44 @@ Assignment7/
 
 ## 🚀 Features
 
-- 🎯 Predicts car fuel efficiency (MPG) using machine learning  
-- 🧾 Sidebar to input car specs like horsepower, weight, etc.  
-- 📊 Visualizations: Feature importance, actual vs predicted MPG, PDP  
-- 🎨 Aesthetic and interactive Streamlit UI  
-- 💡 Trained on seaborn's `mpg` dataset  
+- 🌸 Predicts **Iris Flower Species**  
+- 📩 User-friendly sidebar for inputting flower measurements  
+- 📊 Visuals include class distribution and prediction summary  
+- ✅ Clean and interactive UI using **Streamlit**  
+- 🧠 Powered by a trained **Logistic Regression** or **Random Forest** model  
 
 ---
 
-## 📽️ Sample Prediction Demo
+## 🎥 Sample Prediction Demo
 
-![Sample Prediction](project_video.gif)
-
----
-
-## 🔧 Technologies Used
-
-- Python  
-- Streamlit  
-- Scikit-learn  
-- Pandas, Matplotlib, Seaborn  
-- Joblib  
+![Sample Demo](project_video.gif)
 
 ---
 
 ## 📊 Input Parameters
 
-- `Cylinders` - Number of engine cylinders  
-- `Displacement` - Engine displacement (in cubic inches)  
-- `Horsepower` - Engine horsepower  
-- `Weight` - Vehicle weight (lbs)  
-- `Acceleration` - Time taken to accelerate from 0 to 60 mph  
-- `Model Year` - Year the car model was released  
-- `Origin` - Manufacturing origin (USA, Europe, Japan)  
-- `Car Name` - Vehicle model name  
+- `Sepal Length (cm)`  
+- `Sepal Width (cm)`  
+- `Petal Length (cm)`  
+- `Petal Width (cm)`
 
 ---
 
 ## 🧠 Model Insights
 
-- **Feature Importance** plot shows the most influential features on MPG  
-- **Actual vs Predicted** scatter plot gives a sense of model accuracy  
-- **Partial Dependence Plot** helps visualize how individual features affect predictions  
+- Predicts class probabilities for each flower species  
+- Uses scikit-learn classifier trained on the Iris dataset  
+- Interactive display of prediction results
+
+---
+
+## 🔧 Tech Stack
+
+- Python  
+- Streamlit  
+- Scikit-learn  
+- Pandas, Seaborn, Matplotlib  
+- Joblib  
 
 ---
 
@@ -88,6 +84,13 @@ Assignment7/
 
 ---
 
+## 🌐 Live App
+
+[https://iris-classifier-prateek.streamlit.app/](https://iris-classifier-prateek.streamlit.app/)
+
+---
+
 ## 👨‍💻 Author
 
 Made with ❤️ by **Prateek Agrawal**
+
