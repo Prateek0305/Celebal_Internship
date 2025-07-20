@@ -34,7 +34,7 @@ Assignment7/
 
 ## 📽️ Sample Prediction Demo
 
-![Sample Prediction](Assignment7/project_video.gif)
+![Sample Prediction](project_video.gif)
 
 ---
 
