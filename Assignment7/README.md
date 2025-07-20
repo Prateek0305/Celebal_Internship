@@ -52,8 +52,10 @@ celebal_internship/
 <p>Access the deployed app here:<br>
 👉 <a href="https://prateek-celebal-internship.streamlit.app" target="_blank">https://prateek-celebal-internship.streamlit.app</a></p>
 
-<h2>📷 Sample Prediction Demo</h2>
-<img src="/project_video.gif" alt="Prediction Demo" width="700">
+<h2>🎥 Sample Prediction Demo</h2>
+<p align="center">
+  <img src="Assignment7/project_video.gif" alt="Prediction Demo" width="700">
+</p>
 
 
 <h2>👤 Author</h2>
