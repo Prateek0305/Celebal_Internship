@@ -4,7 +4,7 @@ import joblib
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-model = joblib.load("iris_model.pkl")
+model = joblib.load("Assignment7/iris_model.pkl")
 
 
 st.title("🌸 Iris Species Prediction App")
